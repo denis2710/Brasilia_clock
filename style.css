@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,4 +67,13 @@
     background-color: #2196F3;
     height: 200px;
     width: 230px;
+}
+
+@media only screen and (max-width: 700px) {
+    .display {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+    }
 }
